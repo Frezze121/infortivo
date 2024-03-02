@@ -3074,19 +3074,19 @@
     }
 }
 .typography-value-prop {
-    font-size: 48px;
+    font-size: 35px;
     line-height: 1.0834933333;
     font-weight: 700;
     letter-spacing: -0.003em;
-    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sans-serif;
 }
 @media only screen and (min-width: 1441px) {
     .typography-value-prop {
-        font-size: 64px;
+        font-size: 45px;
         line-height: 1.0625;
         font-weight: 700;
         letter-spacing: -0.009em;
-        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-family: sans-serif;
     }
     .typography-value-prop:lang(ar) {
         letter-spacing: -0.009em;
@@ -7962,6 +7962,74 @@ html.no-js .section-shows .feature .info-bottom {
         left: auto;
     }
 }
+
+@media (max-width: 1870px) and (min-width: 1800px) {
+    .section-shows .show-marquee li {
+        height: 525px !important;
+    }
+}
+
+@media (max-width: 1799px) and (min-width: 1727px) {
+    .section-shows .show-marquee li {
+        height: 500px !important;
+    }
+}
+
+@media (max-width: 1726px) and (min-width: 1656px){
+    .section-shows .show-marquee li {
+        height: 475px !important;
+    }
+}
+
+@media (max-width: 1655px) and (min-width: 1585px){
+    .section-shows .show-marquee li {
+        height: 450px !important;
+    }
+}
+
+@media (max-width: 1584px) and (min-width: 1514px){
+    .section-shows .show-marquee li {
+        height: 425px !important;
+    }
+}
+
+@media (max-width: 1513px) and (min-width: 1443px){
+    .section-shows .show-marquee li {
+        height: 400px !important;
+    }
+}
+
+@media (max-width: 1442px) and (min-width: 1372px){
+    .section-shows .show-marquee li {
+        height: 375px !important;
+    }
+}
+
+@media (max-width: 1371px) and (min-width: 1301px){
+    .section-shows .show-marquee li {
+        height: 350px !important;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1230px){
+    .section-shows .show-marquee li {
+        height: 340px !important;
+    }
+}
+
+@media (max-width: 1229px) and (min-width: 1159px){
+    .section-shows .show-marquee li {
+        height: 340px !important;
+    }
+}
+
+@media (max-width: 1158px) and (min-width: 1088px){
+    .section-shows .show-marquee li {
+        height: 300px !important;
+    }
+}
+
+
 .section-shows .show-marquee {
     width: 100%;
     overflow: hidden;
@@ -7980,7 +8048,7 @@ html.no-js .section-shows .show-marquee {
     margin-left: -210px;
 }
 .section-shows .show-marquee ul {
-    display: inline-block;
+    display: block;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -7988,8 +8056,8 @@ html.no-js .section-shows .show-marquee {
     font-size: 0;
 }
 .section-shows .show-marquee li {
-    width: 378px;
-    height: 212px;
+    width: 50%;
+    height: 536px;
     border-radius: 10px;
     background-size: cover;
     display: inline-block;
@@ -8228,10 +8296,6 @@ html.no-js .section-shows .show-marquee {
 }
 .section-shows .show-marquee li .hover .custom-button:before {
     display: none;
-}
-.section-shows .show-marquee li .hover .custom-button:after,
-.section-shows .show-marquee li .hover .custom-button:before {
-    content: "";
 }
 .section-shows .show-marquee li .hover .custom-button:after {
     padding-left: 0.3em;
