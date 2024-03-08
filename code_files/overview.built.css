@@ -3082,7 +3082,7 @@
 }
 @media only screen and (min-width: 1441px) {
     .typography-value-prop {
-        font-size: 45px;
+        font-size: 35px;
         line-height: 1.0625;
         font-weight: 700;
         letter-spacing: -0.009em;
@@ -3154,7 +3154,7 @@
 }
 @media only screen and (max-width: 1068px) {
     .typography-value-prop {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 1.1;
         font-weight: 700;
         letter-spacing: 0em;
