@@ -383,7 +383,7 @@ body {
     width: auto;
     height: 44px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     -webkit-user-select: none;
     user-select: none;
     list-style: none;
@@ -409,6 +409,7 @@ body {
 #globalnav .globalnav-item {
     box-sizing: border-box;
     height: 44px;
+    margin: auto 25px;
 }
 #globalnav .globalnav-item.globalnav-item-flyout-change-next {
     z-index: 1;
